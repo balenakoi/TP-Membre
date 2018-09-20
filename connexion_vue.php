@@ -14,18 +14,24 @@
   <link rel="stylesheet" href="css/normalize.css">
 
 </head>
-<body>
+  <body>
 
-  <div class="nav">
-      <div class="logo"><a href = "#index.php">LOGO</a></div>
-      <div class="inscription"><a href="inscription_vue.php">Inscription</a></div>
-      <div class="connexion"><a href="connexion_vue.php">Connexion</a></div>
-      <div class="déconnexion"><a href="#index.php">Déconnexion</a></div>
-  </div>
+    <div class="nav">
+        <div class="accueil"><a href = "index.php">Accueil</a></div>
+        <div class="déconnexion"><a href="index.php">Déconnexion</a></div>
+    </div>
 
-  <div class="paragraphe">
-   <h1>Bienvenue sur cet Espace Membre</h1>
-   <p>Connectez-vous ou inscrivez-vous!</p>
-  </div>
-</body>
+         <h2 style="text-align:center;">Ici c'est la connexion</h2>
+
+          <div class="formulaire">
+
+              <p id="retour_connexion"></p>
+              <form class="form" action="connexion_modele.php" method="post">
+                  <label for="pseudo">Pseudo</label> : <input type="text" name="pseudo" id="pseudo"/><br/>
+                  <label for="pass">Mot de passe</label> : <input type="password" name="pass" id="pass"/><br/>
+                  <input type="submit" value="Envoyer"/ style="width:100%;">
+
+              </form>
+          </div>
+  </body>
 </html>

@@ -96,13 +96,58 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.paragraphe{
+  text-align: center;
+}
+
+.nav{
+  display: flex;
+ justify-content:space-between;
+ background: 	#00CED1;
+ height: 100px;
+}
+
+.connexion{
+  padding-top: 30px;
+}
+
+.inscription{
+  padding-top: 30px;
+}
+
+.déconnexion{
+  padding-top: 30px;
+}
+
+.logo{
+  padding-right: 400px;
+  padding-top: 30px;
+}
+.accueil{
+text-align: center;
+padding-top: 30px;
+}
 
 
+.nav a:hover{
+  color: black;
+}
 
+.nav a:focus{
+  color: black;
+}
 
-
-
-
+a {
+  color: black;
+  font-size: 25px;
+}
+ a:link{
+   text-decoration: none;
+ }
+ .formulaire{
+  display: flex;
+  justify-content: center;
+ }
 
 
 
