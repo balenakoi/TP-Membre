@@ -20,7 +20,6 @@
       <div class="logo"><a href = "#index.php">LOGO</a></div>
       <div class="inscription"><a href="inscription_vue.php">Inscription</a></div>
       <div class="connexion"><a href="connexion_vue.php">Connexion</a></div>
-      <div class="déconnexion"><a href="#index.php">Déconnexion</a></div>
   </div>
 
   <div class="paragraphe">

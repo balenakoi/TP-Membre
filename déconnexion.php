@@ -3,14 +3,14 @@
 session_start();
 
 
-// Suppression des variables de session et de la session
+// Deleting Session and Session Variables
 
 $_SESSION = array();
 
 session_destroy();
 
 
-// Suppression des cookies de connexion automatique
+// Deleting automatic login cookies
 
 setcookie('login', '');
 

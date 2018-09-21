@@ -18,7 +18,6 @@
 
     <div class="nav">
         <div class="accueil"><a href = "index.php">Accueil</a></div>
-        <div class="déconnexion"><a href="index.php">Déconnexion</a></div>
     </div>
 
          <h2 style="text-align:center;">Ici c'est la connexion</h2>

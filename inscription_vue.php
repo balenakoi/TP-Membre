@@ -19,7 +19,6 @@
     <body>
       <div class="nav">
           <div class="accueil"><a href = "index.php">Accueil</a></div>
-          <div class="déconnexion"><a href="index.php">Déconnexion</a></div>
       </div>
         <h2 style="text-align:center;">Page d'inscription</h2>
         <div class="formulaire">
